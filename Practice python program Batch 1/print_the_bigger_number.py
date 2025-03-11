@@ -6,6 +6,6 @@ num2 = float(input("Enter second number: "))
 #Check which number is bigger
 if num1>num2:
     #Print bigger number
-    print (num1)
+    print ("The bigger number is: ",num1)
 else:
-    print (num2)
+    print ("The bigger number is: ",num2)
