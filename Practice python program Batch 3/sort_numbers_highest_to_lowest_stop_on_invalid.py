@@ -14,7 +14,7 @@ while True:
         break  
 
 # Sort numbers from highest to lowest  
-nums.sort()    
+nums.sort(reverse=True)    
 
 # Print sorted numbers  
-print("Numbers from highest to lowest:", nums)  
+print("Numbers from highest to lowest:", nums) 
