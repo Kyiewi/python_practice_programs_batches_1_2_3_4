@@ -5,3 +5,4 @@ for num in range(10):
     nums.append(number)
     
 #get the sum of 10 numbers and print output
+print("The sum of 10 numbers is:", sum(nums))
