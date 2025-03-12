@@ -2,5 +2,8 @@
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-#Subtract number and print the difference
-print(num1 - num2)
+#Subtract the two numbers
+difference = num1 - num2
+
+#Print the difference
+print("The difference of the two numbers is:", difference )
