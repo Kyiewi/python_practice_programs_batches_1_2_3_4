@@ -1,9 +1,10 @@
 #Ask user to input 2 numbers
 
-num7 = float(input("Enter first number: "))
-num8 = float(input("Enter second number: "))
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
 #Multiply two numbers
-product = num7 * num8
+product = num1 * num2
+
 #Print the product
 print("The product of two numbers is:", product)
