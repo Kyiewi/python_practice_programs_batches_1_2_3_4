@@ -1,7 +1,7 @@
 # Get 10 numbers from user
 nums = []
 for num in range(10):
-    number = float(input("Enter a number: "))
+    number = int(input("Enter a number: "))
     nums.append(number)
     
 # Count the even numbers in the list
