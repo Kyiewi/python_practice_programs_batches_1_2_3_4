@@ -13,8 +13,8 @@ while True:
         # End program  
         break  
 
-# Sort numbers from highest to lowest  
-nums.sort(reverse=True)    
+# Sort numbers from lowest to highest
+nums.sort()    
 
 # Print sorted numbers  
-print("Numbers from highest to lowest:", nums) 
+print("Numbers from lowest to highest:", nums) 
