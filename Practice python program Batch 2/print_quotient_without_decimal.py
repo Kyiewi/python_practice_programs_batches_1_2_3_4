@@ -2,5 +2,7 @@
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-#Divide number and print the quotiend without decimal
-print (int(num1//num2))
+#Divide number and print the quotient without decimal
+quotient = num1 // num2
+print("The quotient is:", int(quotient))
+
