@@ -3,9 +3,9 @@ nums = []
 
 # Loop keep asking number  
 while True:  
-    try  
-        number = int(input("Enter a number: ")  
-        nums.append(numbet)   
+    try:  
+        number = int(input("Enter a number: "))  
+        nums.append(number)   
 
     # If not valid number, print stop message
     except ValueError:  
@@ -13,6 +13,7 @@ while True:
         #End loop  
         break  
 
-# Find lowest number  
-lowest = min(num)  
-print("Lowest numbet:", lowest)  
+# Find and print lowest number  
+if nums:  
+    lowest = min(nums)  
+    print("Lowest number:", lowest)  
